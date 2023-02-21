@@ -1,0 +1,22 @@
+.siteBody{
+    background-color: #AE431E;
+}
+.header{
+    margin: 0 auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #E9C891;
+    background-color: #D06224;
+    border-radius: 15px;
+    width: 500px;
+}
+
+
+
+/*# 
+Color-scheme for site
+#D06224
+#AE431E
+#8A8635
+#E9C8913
+*/
