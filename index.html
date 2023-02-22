@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title>Etch A Sketch!</title>
         <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
+        <script src="script.js" defer></script>
     </head>
 
     <body class="siteBody">
@@ -12,9 +12,15 @@
         <div class="header">
             <h1>Etch-a-Sketch!</h1>
         </div> 
+        <div class="cointainerContainer">
+            <!--Div with the grid created in Javascript-->
+            <div id="gameGrid">
 
-        <!--Div with the grid created in Javascript-->
-        <div id="gameGrid"></div>
+            </div>
+        </div>
+        <div class="footer">
+            <button id="resetButton">Reset</button>
+        </div>
     </body>
 
 </html>

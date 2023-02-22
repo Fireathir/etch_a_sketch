@@ -11,12 +11,34 @@
     width: 500px;
 }
 
+#gameGrid{
+    height: 500px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(16,1fr);
+    margin: 0 auto;
 
 
-/*# 
+}
+.row{
+    background-color: white;
+    border: 1px solid black;
+}
+
+.footer{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#resetButton{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+}
+
 Color-scheme for site
 #D06224
 #AE431E
 #8A8635
 #E9C8913
-*/
